@@ -59,7 +59,7 @@ public class IntroduccionFicheros {
     public static void leerFichero() {
         // Fichero del que queremos leer
         File fichero = new File("javaFile123.txt");
-        Scanner s = null;
+        Scanner s = null;							// Scanner para leer ficheros de texto
 
         try {
             // Leemos el contenido del fichero
